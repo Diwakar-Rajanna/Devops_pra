@@ -1,7 +1,3 @@
-/*
- * C program to accept numbers as an input from user
- * and to sort them in ascending order.
- */
 #include <stdio.h>
 
 void sort_numbers_ascending(int number[], int count)
@@ -23,11 +19,11 @@ void sort_numbers_ascending(int number[], int count)
    for (i = 0; i < count; ++i)
       printf("%d\n", number[i]);
 }
-void main()
+void sort()
 {
    int i, count, number[20];
  
-   printf("How many numbers you are gonna enter:");
+   printf("\nSort:How many numbers you are gonna enter:");
    scanf("%d", &count);
    printf("\nEnter the numbers one by one:");
    
